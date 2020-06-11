@@ -12,7 +12,7 @@ const request = require('request');
 
 
 
-const token = 'NzE1NTI0MzM0NTU0MzE2ODYw.XuIJ7Q.DJGcH4q0XOoNcIKcJZ9qMs2_Y2Y'
+//const token = 'NzE1NTI0MzM0NTU0MzE2ODYw.XuIJ7Q.DJGcH4q0XOoNcIKcJZ9qMs2_Y2Y'
 
 const PREFIX = '!'
 
@@ -102,4 +102,4 @@ function image(message, argsT) {
 
 }
 
-bot.login(token)
+bot.login(process.env.token)
